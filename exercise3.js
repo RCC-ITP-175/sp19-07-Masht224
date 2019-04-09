@@ -67,6 +67,14 @@ var customersObj = {
     }
 };
 
+customersObj.title[0] = "substitute"
+customersObj.title[1] = "captain"
+customersObj.title [2] - "captain"
+customersObj.title[3] = "shopkeeper"
+customersObj.title[4] = "espada 4"
+customersObj.last[4] = "Cifer"
+
+
 
 
 

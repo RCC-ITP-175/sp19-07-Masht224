@@ -42,7 +42,7 @@ function displayBalance(customerID, balance) {
   return balance;
 }
 
-
+var balanceValue = customersObj.balance[0];
 
 
 
