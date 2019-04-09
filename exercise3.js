@@ -23,7 +23,8 @@ var customersObj = {
     23567: {
         'name': {
             'first': 'Ichigo',
-            'last': 'Kurosaki'
+            'last': 'Kurosaki',
+            'title': 'Substitute'
         }, 
         'customerID': 23567,
         'balance': 153677345
@@ -31,7 +32,8 @@ var customersObj = {
     1234: {
         'name': {
             'first': 'Gin',
-            'last': 'Ichimaru'
+            'last': 'Ichimaru',
+            'title': 'Captain'
         }, 
         'customerID': 1234,
         'balance': 1235412356
@@ -39,7 +41,8 @@ var customersObj = {
     1531: {
         'name': {
             'first': 'Shunsui',
-            'last': 'Kyoraku'
+            'last': 'Kyoraku',
+            'title': 'Captain'
         }, 
         'customerID': 1531,
         'balance': 65432467
@@ -47,14 +50,17 @@ var customersObj = {
     543: {
         'name': {
             'first': 'Kisuke',
-            'last': 'Urahara'
+            'last': 'Urahara',
+            'title': 'Shopkeeper'
         }, 
         'customerID': 543,
         'balance': 63463723562
     },
     667: {
         'name': {
-            'first': 'Ulquiorra' 
+            'first': 'Ulquiorra' ,
+            'last': 'Cifer',
+            'title': 'Espada 4'
         }, 
         'customerID': 667,
         'balance': 4562647745

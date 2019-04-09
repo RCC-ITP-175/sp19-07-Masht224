@@ -11,7 +11,7 @@ var customersObj = {
             'last': 'Kurosaki'
         }, 
         'customerID': 23567,
-        'balance': 153677345
+        'balance': "$153,677,345.00"
     },
     1234: {
         'name': {
@@ -19,7 +19,7 @@ var customersObj = {
             'last': 'Ichimaru'
         }, 
         'customerID': 1234,
-        'balance': 1235412356
+        'balance': "$123,541,235.60"
     },
     1531: {
         'name': {
@@ -27,7 +27,7 @@ var customersObj = {
             'last': 'Kyoraku'
         }, 
         'customerID': 1531,
-        'balance': 65432467
+        'balance': "$654,324.67"
     },
     543: {
         'name': {
@@ -35,10 +35,12 @@ var customersObj = {
             'last': 'Urahara'
         }, 
         'customerID': 543,
-        'balance': 63463723562
+        'balance': "$634,637,235.62"
     }
 };
-
+function displayBalance(customerID, balance) {
+  return balance;
+}
 
 
 

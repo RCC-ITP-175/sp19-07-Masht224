@@ -49,7 +49,9 @@ var customersObj = {
     }
 };
 
-
+function getCustomer(CustomerID,first, last) {
+  return first, last ;
+}
 
 
 
