@@ -75,7 +75,10 @@ customersObj.title[4] = "espada 4"
 customersObj.last[4] = "Cifer"
 
 
-
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// -6pts missing transaction function
 
 
 
