@@ -53,6 +53,11 @@ function getCustomer(CustomerID,first, last) {
   return first, last ;
 }
 
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// -6pts your function is returning undefined because you aren't referencing the customersObj on line 53.
+// Look at the feedback I gave on exercise1.js and use some similar bracket notation.
 
 
 
