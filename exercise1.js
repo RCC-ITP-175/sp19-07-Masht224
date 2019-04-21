@@ -11,7 +11,7 @@ var customersObj = {
             'last': 'Kurosaki'
         }, 
         'customerID': 23567,
-        'balance': "$153,677,345.00"
+        'balance': 153677345
     },
     1234: {
         'name': {
@@ -19,7 +19,7 @@ var customersObj = {
             'last': 'Ichimaru'
         }, 
         'customerID': 1234,
-        'balance': "$123,541,235.60"
+        'balance': 1235412356
     },
     1531: {
         'name': {
@@ -27,7 +27,7 @@ var customersObj = {
             'last': 'Kyoraku'
         }, 
         'customerID': 1531,
-        'balance': "$654,324.67"
+        'balance': 65432467
     },
     543: {
         'name': {
@@ -35,7 +35,7 @@ var customersObj = {
             'last': 'Urahara'
         }, 
         'customerID': 543,
-        'balance': "$634,637,235.62"
+        'balance': 63463723562
     }
 };
 function displayBalance(customerID, balance) {
@@ -44,7 +44,14 @@ function displayBalance(customerID, balance) {
 
 var balanceValue = customersObj.balance[0];
 
-
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// -8 pts I want you to change the format of balance inside your displayBalance function
+// not edit it directly in the customersObj object. I reset the balance properties
+// back to their original format here for you to try again.
+// -1 pts for bracket notation on line  45
+// You are close with your object notation, try customersObj[customerID].balance
 
 
 
